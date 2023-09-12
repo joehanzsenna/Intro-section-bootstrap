@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    />
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+    <!-- bootstrap css cdn Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="cc-heroSection">
+        <!-- the navbar section  -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary px-4">
+        <div class="container-fluid ">
+
+          <!-- the snap logo  -->
+          <a class="navbar-brand" href="#">
+            <img src="../images/logo.svg" alt="">
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse "  id="navbarSupportedContent">
+
+            <!-- for the links  -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Features
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#"><img src="../images/icon-todo.svg" class="me-2" alt=""> <span>Todo list</span></a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Company
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Careers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+
+            </ul>
+
+            <!-- for the buttons  -->
+            <form class="d-flex gap-3" >
+
+              <button class="btn " type="submit">
+                Login
+              </button>
+              <button class="btn border border-dark rounded-4" type="submit">
+                Register
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- sub-hero Section  -->
+
+      <section
+        class="cc-subHero d-flex flex-column flex-lg-row align-items-center m-auto"
+      >
+        <div class="w-100 bg-white">
+          <h1 class="display-2 fw-bold lh-1 mb-5">
+            Make <span style="display: block">remote work</span>
+          </h1>
+          <p class="w-75 mb-5 text-body-secondary fw-medium">
+            Get your team in Sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+          <button
+            class="py-2 px-3 border border-0 bg-dark text-white rounded-3 mb-5"
+          >
+            Learn More
+          </button>
+          <div class="d-flex gap-4 mt-5">
+            <img
+              src="../images/client-databiz.svg"
+              style="object-fit: contain;"
+              alt=""
+            />
+            <img
+              src="../images/client-audiophile.svg"
+              style="object-fit: contain"
+              alt=""
+            />
+            <img
+              src="../images/client-maker.svg"
+              style="object-fit: contain"
+              alt=""
+            />
+            <img
+              src="../images/client-meet.svg"
+              style="object-fit: contain"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="w-100 text-center">
+          <img
+            src="../images/image-hero-desktop.png"
+            style="width: 20rem"
+            alt=""
+          />
+        </div>
+      </section>
+    </section>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+
+    <!-- Bootstrap cdn link Js  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+
+
+ <!-- <nav class="navbar navbar-expand-lg px-4">
+          <div class="container-fluid">
+            <a class="navbar-brand fw-bold fs-3" href="#">
+              <img src="../images/logo.svg" alt="">
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Features
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Company
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link">Careers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">About</a>
+                </li>
+              </ul>
+              <form class="d-flex gap-3" role="search">
+                <button class="btn btn-outline-none" type="submit">
+                  Login
+                </button>
+                <button class="btn btn-outline-success rounded-3" type="submit">
+                  Register
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav> -->
